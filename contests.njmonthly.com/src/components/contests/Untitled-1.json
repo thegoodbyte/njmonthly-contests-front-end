@@ -1,0 +1,42 @@
+[
+  {
+    "info": "For the a cover image, vertical photos work best. Submit photos in high-resolution.",
+    "name": "media_id",
+    "type": "image",
+    "title": "Upload Image",
+    "value": null,
+    "required": "true",
+    "field_type": "image_covered",
+    "faker_complex": "image"
+  },
+  {
+    "name": "item_name",
+    "type": "field",
+    "title": "Name of Location or Image",
+    "value": "scavenger-hunt",
+    "classes": "hidden",
+    "required": "false",
+    "field_type": "text",
+    "placeholder": "Colonial Park",
+    "faker_simple": "name",
+    "hidden": true
+  },
+  {
+    "name": "item_att1",
+    "type": "field",
+    "title": "Category",
+    "required": "true",
+    "field_type": "select",
+    "placeholder": "Select a Category",
+    "faker_simple": "text"
+  },
+  {
+    "info": "<p>I am the copyright holder or have the ability to grant New Jersey Monthly publication and Unique Photo rights for publishing the photo, and I grant New Jersey Monthly permission to publish the photo. I agree to the <a href=\"/contests/2019-cover-search/rules\">official contest rules</a>.</p>",
+    "name": "photo_permission",
+    "type": "field",
+    "title": "Photo Permission",
+    "required": "true",
+    "field_type": "permission",
+    "faker_simple": "boolean"
+  }
+]

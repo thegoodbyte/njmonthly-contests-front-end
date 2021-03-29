@@ -1,0 +1,1693 @@
+
+
+body {
+  font-size: $font-size-base;
+  font-family: "Open Sans", 'sans-serif';
+}
+
+body {
+  // background: #F9FFF9;
+  // background: #F4FFFB;
+  // background: #F7FFFE;
+  // background: #FAFFFE;
+  background: white;
+}
+p {
+  margin-top: 0px;
+}
+
+
+.home-page.view {
+  max-width: initial;
+}
+
+.finder-content {
+  font-size: 14px;
+}
+
+// #search-template {
+//   width: 100%;
+// }
+
+
+
+
+a {
+  color: #557ebc;
+}
+
+#search-boxes {
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+
+
+
+
+.page .search__dropdown {
+  // left: 55px;
+  top: 39px;
+}
+.js-template-searchDropdownFacets {
+  margin-bottom: 25px;
+}
+
+.hours-content {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.dir-categories.dir-block__categories.rating .dir-block__categories-title {
+  display: inline-block !important;
+  vertical-align: top;
+}
+
+.dir-block__categories-title,
+.profile-title {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 15px;
+}
+.dir-block__categories-title {
+  margin: 0px;
+}
+.dir-categories {
+  margin-bottom: 20px;
+}
+.profile-content {
+  font-size: 15px;
+}
+.leaflet-map-container {
+  margin-bottom: 25px;
+}
+
+.disable-scroll {
+
+  height: 300px;
+  position: absolute;
+  width: 303px;
+  pointer-events: none;
+  z-index: 10;
+
+}
+
+.profile-title {
+  margin-bottom: 4px;
+}
+// .dir-categories.dir-block__categories {
+//     display: inline-block;
+// }
+
+img {
+  max-width: 100%;
+}
+
+.display-none {
+  display: none;
+}
+
+// .star::before {
+//   content: '\2605';
+//   color: #159B5D;
+//   font-size: 20px;
+// }
+
+.star {
+
+  // color: #e61700;
+  // font-size: 24px;
+  margin-right: 2px;
+  float: left;
+  height: 14.5px;
+  // line-height: 15px;
+
+}
+
+.star svg {
+  width: 14.5px !important;
+  vertical-align: top;
+}
+
+.star.half {
+  width: 8px;
+  overflow: hidden;
+  // display: inline-block;
+  // vertical-align: bottom;
+  // line-height: 12px;
+}
+
+.stars-container {
+  display: inline-block;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+
+.facet-item.child {
+  margin-left: 20px;
+}
+
+.facet-item .stars-container {
+  display: inline-block;
+  // vertical-align: bottom;
+}
+
+
+.container {
+  max-width: 1000px;
+}
+
+.leaflet-container {
+  height: 300px;
+}
+
+
+
+/* Crescent Loading Icon */
+
+@keyframes lds-eclipse {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes lds-eclipse {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.lds-eclipse {
+  position: relative;
+}
+.lds-eclipse div {
+  position: absolute;
+  -webkit-animation: lds-eclipse 1s linear infinite;
+  animation: lds-eclipse 1s linear infinite;
+  width: 160px;
+  height: 160px;
+  top: 20px;
+  left: 20px;
+  border-radius: 50%;
+  box-shadow: 0 4px 0 0 #93dbe9;
+  -webkit-transform-origin: 80px 82px;
+  transform-origin: 80px 82px;
+}
+.lds-eclipse {
+  width: 200px !important;
+  height: 200px !important;
+  -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+  transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+}
+
+.lds-eclipse {
+  margin: 0 auto;
+}
+
+.lds-css.ng-scope {
+  display: block;
+  width: 100%;
+}
+
+
+// .clear-search {
+//     position: absolute;
+//     padding: 9px;
+//     z-index: 1;
+//     right: 7px;
+// }
+
+.clear-search {
+  position: absolute;
+  padding: 9px;
+  z-index: 1;
+  right: 5px;
+  top: 0px;
+}
+
+.clear-search svg {
+  fill: #aaa;
+  
+  cursor: pointer;
+}
+
+.clear-search svg:hover {
+  fill: #700;
+}
+
+
+// other changes
+
+/* Filters */
+// .filter #awards h3 {
+//     margin-top: 12px;
+// }
+
+.filter-title {
+
+  font-size: 15px !important;
+  font-weight: 800 !important;
+
+}
+
+.facet-count {
+
+  font-weight: lighter;
+
+}
+
+
+.facet-item label {
+
+  font-size: 14px;
+  margin-bottom: 0px;
+
+}
+
+
+
+.clear-filters:hover {
+  cursor: pointer;
+  color: #700;
+}
+.facet-item label:hover {
+  cursor: pointer;
+}
+
+
+.filter .Select {
+  margin-bottom: 6px;
+}
+
+
+.down-arrow {
+  width: 15px;
+  top: 3px;
+  left: 2px;
+  position: relative;
+  fill: #636b6f; 
+}
+.filter .filter-section-container .down-arrow {
+  width: 17px;
+  top: 2px;
+  left: 10px;
+}
+
+/* Disable truncation for rating */
+.rating_filter .filter-checkboxes.truncated {
+  max-height: none;
+}
+
+.filter #rating label input[type="checkbox"] {
+top: -3px;
+position: relative;
+}
+.filter #rating .facet-count {
+top: -3px;
+position: relative;
+}
+// Disable truncation for the rating, awards, 
+// .rating_filter .view-more {
+
+//     display: none;
+
+// }
+/* hide on mobile */
+// .view-more {
+//     display: none;
+// }
+// .view-more {
+//     background-color: gainsboro;
+//     padding: 3px 8px;
+//     border-radius: 3px;
+//     font-size: 12px;
+// }
+// .view-more:hover {
+//     cursor: pointer;
+// }
+// .down-arrow {
+//     transition: all .3s ease-in-out;
+// }
+.down-arrow.up {
+  transform: rotate(180deg) scaleX(-1);
+  top: 0px;
+}
+
+.toggle-filter {
+  display: inline-block;
+  padding: 5px 18px;
+  border: 1px solid #d1d1d1;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.toggle-filter:hover {
+  cursor: pointer;
+}
+.filter.mobile .filter-section-container {
+  padding: 6px 10px;
+  border: 1px solid #d1d1d1;
+  margin-bottom: 10px;
+}
+
+// popup modal for filters on mobile
+// I am no longer using this since
+// there are scrolling issues.
+// .filter.mobile {
+//     position: fixed;
+//     top: 0px;
+//     background: white;
+//     width: 100%;
+//     z-index: 10;
+//     bottom: 0px;
+//     overflow-y: scroll;
+//     padding: 15px;
+//     left: 0px;
+// }
+
+.filter.mobile {
+  display: block;
+  // position: absolute;
+  background: white;
+  width: 100%;
+  z-index: 10;
+  // padding: 15px;
+  left: 0px;
+}
+
+
+.sidebar-search.mobile {
+  display: block;
+}
+
+.sidebar-search .search-all, 
+.sidebar-search .search-places {
+  float: none;
+}
+.sidebar-search .algolia-places {
+  margin: 0 !important;
+}
+
+.sidebar-search .my-loc-bar {
+  margin-top: 0px;
+}
+
+.sidebar-search.clear-fix.mobile {
+  margin-bottom: 10px;
+}
+
+.filter.mobile .toggle-filter {
+  right: 0px;
+  display: block;
+  // text-align: right;
+  border: none;
+}
+.update-results {
+
+  display: block;
+  text-align: center;
+  padding: 18px;
+  background: #12995c;
+  bottom: 0px;
+  // position: fixed;
+  right: 0px;
+  left: 0px;
+  margin-left: 54px;
+  color: white;
+  font-size: 18px;
+}
+
+.clear-data {
+
+  float: left;
+
+}
+.clear-filters {
+
+  font-size: 14px;
+  margin-right: 10px;
+
+}
+.results-count {
+
+  float: right;
+
+}
+
+.toggle-filter.mobile svg {
+  fill: #333;
+}
+.filter-mobile-actions {
+  position: relative;
+  // margin-bottom: 15px;
+}
+
+.toggle-filter.mobile {
+  margin: 0px;
+  padding: 19px 21px;
+  border: 1px solid #12995c !important;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.filter-done {
+  width: 100%;
+  text-align: center;
+  display: block;
+  padding: 11px;
+  background: gainsboro;
+}
+.filter-done .down-arrow {
+  top: 2px;
+}
+/* 
+Mobile first
+Hide the filter and the filter's titles 
+*/
+
+// .filter .filter-title {
+//     display: none;
+// }
+.filter .filter-toggle:hover {
+  cursor: pointer;
+}
+// .filter .filter-toggle {
+//     display: inline-block;
+//     padding-right: 20px;
+// }
+
+.filter .search-select-toggle {
+  float: right;
+}
+
+.filter .search-select-toggle svg {
+  width: 20px;
+  height: 20px;
+  top: 6px;
+  position: relative;
+}
+
+/*
+Hide the item on desktop.
+Display the item if it has a mobile class (react adds the mobile class)
+*/
+.filter {
+  display: none;
+}
+.sidebar-search {
+  display: none;
+}
+
+// .filter.mobile {
+//     padding-bottom: 60px;
+// }
+
+
+.filter .filter-title {
+  // display: block;
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+.filter-title {
+
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  text-transform: uppercase;
+
+}
+.filter .filter-toggle-filter {
+  display: block;
+}
+
+
+
+.filters-title-desktop {
+  display: none;
+}
+
+.filters-title-desktop {
+
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 0px !important;
+
+}
+
+.toggle-signs {
+  float: right;
+  margin-right: 20px;
+}
+
+// Hide the toggle signs on desktop for
+// certain filters that don't have a lot
+// of categories
+// @media (min-width: 768px) {
+//   .price_range .toggle-signs, 
+//   .rating .toggle-signs {
+//     display: none;
+//   }
+// }
+
+
+.filter-section {
+  margin-top: 15px;
+}
+
+.filter-section.truncated {
+  display: none;
+}
+
+.filter.mobile .filter-section {
+  max-height: 165px;
+}
+// .filter-section.mobile {
+//     display: block;
+// }
+
+
+.filter-section {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.filter-section.truncated {
+  max-height: 165px;
+}
+
+.select-facets-container.hide {
+  display: block !important;
+}
+
+.search-select-toggle {
+  display: none;
+}
+
+@media (min-width: 768px) {
+
+  #suggestions {
+      margin-top: 0px;
+      z-index: 12;
+  }
+  .filter-section.truncated {
+      display: block;
+  }
+  // // CSS for controlling down arrow on mobile and desktop.
+  .filter .filter-toggle-filter {
+      display: inline-block;
+  }
+  .toggle-signs {
+      float: none;
+      margin-right: 0px;
+  }
+  .search-select-toggle {
+      display: block;
+  }
+
+  .select-facets-container.hide {
+      display: none !important;
+  }
+
+  .toggle-filter {
+      margin-top: 15px;
+  }
+
+  .section-switcher {
+      padding-top: 10px;
+      // text-align: center;
+      // box-shadow: 1px 1px 1px #12995c;
+      // border-right: 1px solid #12995c;
+      // border-bottom: 1px solid #12995c;
+  }
+
+  .filter-mobile-actions {
+      display: none;
+  }
+
+  
+  .search-search-bar.clear-fix {
+
+      float: right !important;
+  
+  }
+
+
+
+
+  .filter-mobile-actions {
+
+      margin: 0px;
+  
+  }
+
+  .update-results {
+      display: none;
+  }
+
+
+  #category .filter-toggle {
+      margin-top: 10px;
+  }
+
+  // // Only truncate filter checkboxes on desktop
+  // .filter-checkboxes.truncated {
+  //     max-height: 165px;
+  //     // overflow: hidden;
+  //     overflow-y: auto;
+  // }
+
+  .filter .filter-title {
+      font-size: 18px;
+      font-weight: bold;
+  }
+
+  .filters-title-desktop {
+      display: block;
+  }
+
+  .filter-toggle {
+      border: 1px solid #e9e9e9;
+      padding: 5px 10px;
+      margin-bottom: 5px;
+      margin-top: 20px;
+  }
+
+
+
+
+
+  
+  /* reveal on desktop */
+  // .view-more {
+  //     display: inline-block;
+  // }
+
+  .toggle-filter {
+      display: none;
+  }
+  // .filter-checkboxes {
+  //     display: block;
+  // }
+
+  // .filter .filter-toggle {
+  //     display: none;
+  // }
+  /*
+  Display the item on mobile.
+  Hide the item if it doesn't have a mobile class
+  */
+  .filter {
+      display: block;
+  }
+  .sidebar-search {
+      display: block;
+  }
+  // .filter.mobile {
+  //     display: none;
+  // }
+
+
+  // This causes the filters to be displayed with a max-height set.
+  // If the filter toggle is clicked, the max-height is removed, and
+  // all the filters are displayed
+  .filters-sidebar .filter-section {
+      display: block;
+      margin-top: 0px;
+  }
+  .filters-sidebar .filter-section.mobile {
+      max-height: none;
+  }
+  // .filter-section.mobile {
+  //     display: none;
+  // }
+
+
+
+
+
+}
+
+.Select input {
+  font-size: 16px !important;
+}
+/* Pagination */
+.pagination li:hover {
+  cursor: pointer;
+}
+
+#broadstreet-in-list {
+  padding: 20px;
+  // background-color: gray;
+}
+broadstreet-zone {
+  text-align: center;
+}
+
+
+
+/*Search */
+.search-facet-item-key {
+
+  float: right;
+  font-weight: bold;
+  color: #bdbdbd;
+  font-size: 13px;
+
+}
+
+.search-facet-item:hover {
+
+  cursor: pointer;
+
+}
+
+
+
+
+
+
+/* SearchBar designs for pages */
+.page #search-boxes .col-md-5, 
+.page #search-boxes .col-md-2 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+
+// // Algolia places location marker in search box
+// .ap-input-icon.ap-icon-pin, .ap-input-icon.ap-icon-clear {
+//     right: 55px;
+// }
+.search-input .button-v2 svg {
+  fill: white;
+}
+.button-v2 {
+  position: absolute;
+  // padding: 8px 13px;
+  z-index: 1;
+  background: black;
+  right: 0px;
+  width: 40px;
+  text-align: center;
+
+}
+// .button-v2.location-arrow {
+//     right: 16px;
+// }
+
+// .cancel-search svg {
+//     width: 15px !important;
+//     height: 13px !important;
+// }
+// .mobile-search-icon svg {
+//     height: 16px !important;
+//     width: 20px !important;
+// }
+
+.button {
+  padding: 10px 20px;
+  color: white;
+  background: green;
+  border-radius: 5px;
+}
+
+.button.cancel {
+  margin-right: 10px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+.cancel-search svg {
+  max-width: 20px;
+}
+
+.cancel-search, 
+.mobile-search-icon {
+  color: white;
+}
+
+.search-input .button-v2 {
+  height: 39px;
+  padding-top: 8px;
+}
+.button-v2.location-arrow {
+  height: 40px;
+  padding-top: 8px;
+}
+
+.page .button-v2 {
+  display: block;
+}
+.page .dsr-search-box--input,
+.page #address-input {
+  height: 55px !important;
+}
+.page .dsr-search-box--input {
+  // padding-left: 75px !important;
+  border-radius: 20px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.page #address-input {
+  border-radius: 0;
+  // padding-left: 73px !important;
+  // border-top-left-radius: 20px;
+  // border-bottom-left-radius: 20px;
+}
+
+.page .search-button {
+  height: auto;
+  padding: 16px;
+  border-bottom-right-radius: 20px;
+  background: #2DB156;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+.page .search-button:hover {
+  cursor: pointer;
+}
+
+.page .clear-search {
+  right: 0px;
+  padding: 15px;
+}
+
+.page .ap-input-icon.ap-icon-pin {
+  right: 12px;
+}
+
+.page#masthead {
+  max-width: none;
+  background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url("https://njmdir.wpengine.com/wp-content/uploads/2018/05/bread-chip-close-up-62097.jpg") !important;
+  margin-top: 0;
+  // text-align: center;
+  padding-bottom: 100px;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+
+.page .njmonthly-logo {
+  margin-bottom: 30px;
+  margin-top: 50px;
+  // margin-bottom: 200px;
+  max-width: 300px;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.njmonthly-logo path {
+  fill:#12995c;
+}
+
+.center {
+  text-align: center;
+}
+
+.facet-links {
+  color: white;
+  letter-spacing: 1px;
+  font-size: 16px;
+  color: #e6e6e6;
+}
+
+.main-title {
+  color: white;
+  font-size: 64px;
+}
+.landing-page-welcome {
+  margin-bottom: 90px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.page #search-boxes {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.Select.Select--single.is-open .Select-menu-outer {
+  z-index: 10000 !important;
+}
+
+// disable scrolling when filter modal is open
+body.filter-modal {
+  overflow: hidden;
+}
+
+
+.my-loc-bar .location-arrow {
+  float: right;
+}
+// .page .button-v2 {
+//     padding: 16px 27px;
+//     z-index: 1;
+//     background: #2DB156;
+//     border-bottom-right-radius: 20px;
+//     border-bottom-left-radius: 20px;
+//     border-top-left-radius: 20px;
+//     left: 0px;
+//     right: auto !important;
+// }
+
+.page .button-v2.location-arrow {
+  padding: 10px 15px;
+  background: white;
+  top: 10px;
+  right: 10px;
+}
+
+.location-arrow:hover {
+  cursor: pointer;
+}
+
+.search-search-bar {
+  display: none;
+}
+
+
+
+/* Home page */
+
+
+.section .title {
+
+  display: table-cell;
+  height: 273px;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+
+}
+
+// .simple-section .title a {
+//     color: #E0744A;
+//     font-size: 24px;
+//     font-weight: 800;
+// }
+
+.simple-section .title a {
+color: black;
+font-size: 24px;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.section .title:hover {
+  cursor: pointer;
+}
+
+.simple-section .title:hover {
+  cursor: pointer;
+}
+
+.section .background {
+  // background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://njmdir.wpengine.com/wp-content/uploads/2018/05/bread-chip-close-up-62097.jpg") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  display: table;
+  width: 100%;
+}
+
+.section .circle .background {
+  border-radius: 100%;
+}
+
+
+#masthead.page {
+  margin-bottom: 100px;
+}
+.homepage-top {
+  text-align: center;
+  max-width: none;
+  // background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url("http://njmdir.wpengine.com/wp-content/uploads/2018/06/home-page-top-image-map.jpg") !important;
+  // background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("http://njmdir.wpengine.com/wp-content/uploads/2018/06/home-page-top-image-map.jpg") !important;
+  // background-image: url('https://njmdir.wpengine.com/wp-content/uploads/2018/06/home-page-top-image-map.jpg');
+  background-image: url('https://njmdir.wpengine.com/wp-content/uploads/2018/06/map-north.jpg');
+  padding: 10px 30px;
+  background-size: cover !important;
+  background-position: center !important;
+  margin-top: 4px;
+  margin-bottom: 30px;
+  color: white;
+}
+.homepage-title {
+
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 4px;
+  color: black;
+  margin: 20px 0px;
+
+}
+.homepage-subtitle {
+
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: black;
+  font-size: 24px;
+
+}
+
+.home-page.container .row {
+
+  margin-bottom: 40px;
+
+}
+
+
+
+
+.section-header {
+
+  max-width: none;
+  background-size: cover !important;
+  background-position: center !important;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #dedcdc;
+  margin-top: 15px;
+
+}
+
+.section-header .title {
+
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 4px;
+  margin: 0;
+
+}
+.section-header .sub-title {
+
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.section-header .wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-header .logo {
+  margin-bottom: 10px;
+}
+.section-header .content {
+  font-size: 14px;
+}
+@media (min-width: 500px) {
+  .section-header {
+      overflow: hidden;
+  }
+  .section-header .logo {
+      width: 175px;
+      margin-right: 10px;
+      float: left;
+  }
+}
+
+
+.home-page.container .row {
+
+  margin-bottom: 40px;
+
+}
+
+.circle.col-md-4 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+// .section-switcher .title {
+//     font-size: 40px !important;
+//     // font-weight: lighter;
+  
+//     letter-spacing: 1px;
+// }
+
+
+
+.section-switcher .title {
+
+  font-size: 32px !important;
+  letter-spacing: -1px;
+  font-weight: 800;
+  margin-bottom: 1px;
+
+}
+.section-switcher .title {
+  margin-top: 0;
+}
+.section-switcher .current-dir-title {
+  text-transform: capitalize;
+  display: inline-block;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-weight: normal;
+  font-size: 18px;
+}
+.section-switcher .title {
+  text-transform: capitalize;
+}
+.section-switcher {
+  height: auto;
+  // color: white;
+}
+
+
+
+.dir-title {
+
+  margin: 0px;
+  font-weight: 800;
+  font-size: 27px;
+
+}
+
+
+// .section-switcher {
+//     float: left;
+//     padding: 0 20px;
+// }
+.section-switcher .current-dir-title:hover {
+  cursor: pointer;
+}
+
+
+.homepage-dir-switch-title {
+  color: black;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.section-switcher.homepage {
+  padding-top: 20px;
+  display: inline-block;
+}
+.section-switcher.homepage .dir-dropdown-content {
+  position: absolute;
+}
+.section-switcher.homepage .down-arrow {
+  width: 22px;
+  fill: black;
+  top: 4px;
+}
+.homepage-dir-switch-title:hover {
+  cursor: pointer;
+}
+
+.section-switcher.homepage .toggle-signs {
+  display: block;
+  float: none;
+  margin-right: 0;
+}
+
+
+
+
+
+.njmonthly-logo path {
+  fill: #12995c;
+  fill: white;
+  // fill: black;
+}
+
+
+
+@media (min-width: 768px) {
+
+  .section-switcher.homepage .toggle-signs {
+      display: inline-block !important;
+  }
+
+  .homepage-title {
+      font-size: 62px;
+  }
+
+  .section-switcher .current-dir-title {
+      padding-bottom: 15px;
+  }
+
+  .map-sidebar{
+      will-change: min-height;
+  }
+  
+  .map-sidebar__inner{
+      transform: translate(0, 0); /* For browsers don't support translate3d. */
+      transform: translate3d(0, 0, 0);
+      will-change: position, transform;
+  }
+
+  .map-sidebar.is-affixed .map-sidebar__inner {
+      position: fixed !important;
+      top: 20px;
+      width: 303px;
+  }
+
+
+
+  .filters-top .filters-title-desktop {
+      text-align: right;
+      margin-top: 0px;
+  }
+
+  .filters-top .filter {
+      float: right;
+  }
+
+  .filters-top .filter-section-container .filter-toggle {
+      margin: 0;
+  }
+  .filters-top .filter-section-container {
+      float: left;
+      vertical-align: top;
+  }
+  
+  .filters-top .filter-section.mobile {
+      position: absolute;
+      z-index: 10000;
+      background: white;
+      max-height: 100vh;
+      margin-top: 0px;
+  }
+  .filters-top .section-switcher {
+      height: auto;
+      float: left;
+      margin: 0;
+      padding: 0;
+  }
+
+  .filters-top .toggle-signs {
+      margin-right: 12px;
+  }
+
+
+  // .homepage-top {
+  //     margin-top: -30px;
+  // }
+
+  /* Home page */
+  .section .title {
+      font-size: 40px;
+  }
+
+  // Display the buttons on mobile everywhere (on pages and search)
+  // Hide the buttons on search pages on desktop
+
+  // .button-v2 {
+  //     display: none;
+  // }
+
+  // .page .button-v2 {
+  //     display: block;
+  // }
+
+  // On Desktop, move the icons (X button on search and
+  // marker for location) back in position.
+  .clear-search {
+      right: 8px;
+  }
+  .ap-input-icon.ap-icon-pin {
+      right: 16px;
+  }
+
+  // Enhanced listings
+  .col-md-6.col-xs-12.right {
+      text-align: right;
+  }
+
+  // .distance-text-mobile {
+  //     display: none;
+  // }
+  .dir-card__distance {
+      display: block;
+  }
+
+  // Move the listing content closer to the image on desktop
+  .img-col {
+      padding-right: 0px;
+  }
+
+  .site-header.search .search-button {
+      margin-left: 20px;
+  }
+
+
+
+  .search-input .button-v2 {
+      display: none;
+  }
+
+
+  .search-search-bar {
+      display: block;
+  }
+
+  // .site-header.search {
+  //     margin-bottom: 30px;
+  // }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clear-fix::before, 
+.clear-fix::after {
+  content: '';
+  display: table;
+}
+.clear-fix::after {
+  clear: both;
+}
+
+.dir-dropdown {
+  position: relative;
+  text-align: left;
+}
+
+.dir-dropdown .dir-dropdown-content {
+  // position: absolute;
+  color: black;
+  background: white;
+  padding: 10px;
+  border: 1px solid #c5c5c5;
+  width: 100%;
+  z-index: 3;
+  min-width: 150px;
+}
+
+
+.page .njmonthly-logo path {
+  fill: #12995c;
+}
+.dir-dropdown-item {
+
+  display: block;
+
+}
+.dir-dropdown-item:hover {
+  cursor: pointer;
+}
+
+.facet-link:hover {
+  cursor: pointer;
+}
+
+.pagination > li > a, .pagination > li > span {
+
+  color: black;
+
+}
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+  background-color: #159B5D;
+  border-color: #159B5D;
+}
+.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
+  color: #159B5D;
+}
+
+
+.search-search-bar.mobile {
+  display: block;
+}
+
+
+.Select.is-clearable.is-searchable.Select--multi {
+  max-height: 36px;
+  overflow-y: scroll;
+}
+
+// Columns do not on Safari when
+// the columns add up to 100%
+@media (min-width: 768px){
+
+
+  .col-md-3 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 24.8%;
+      flex: 0 0 24.8%;
+      max-width: 24.8%;
+  }
+
+  .col-md-6 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 49.8%;
+      flex: 0 0 49.8%;
+      max-width: 49.8%;
+  }
+
+}
+
+
+// Hide the search bar and section switcher for Select pages.
+// .site-header.select .search-search-bar {
+//     display: none;
+// }
+.site-header.select .search-search-bar .search-all {
+  display: none !important;
+}
+.search-content.select .section-switcher {
+  display: none;
+}
+.single-article.Selects .article-head .hit-image {
+  display: none;
+}
+
+.single-article.Selects .profile-title {
+  display: none;
+}
+// .single-article.Selects .dir-block_item.website {
+//     display: none;
+// }
+
+// .search-content.select .section-header {
+//     background-color: rgb(181,189,200);
+//     padding: 40px 10px;
+// }
+.search-content.select .section-header {
+  padding: 30px 0px 5px;
+} 
+// @media (min-width: 768px) {
+
+// }
+
+// Center the njm logo
+// .site-header.select .search-search-top {
+//     width: 100%;
+//     text-align: center;
+// }
+// .site-header.select .search-search-top .logo {
+//     float: none;
+// }
+.search-content.select .section-header {
+  margin-top: -15px;
+}
+
+.search-content.select .section-header .sub-title {
+  font-size: 12px;
+}
+
+.search-content.select .listing-location::before {
+  content: "Sponsored Content";
+}
+
+.go-back:hover {
+  cursor: pointer;
+}
+.go-back {
+  color: #337ab7;
+  font-size: 12px;
+}
+.single-article .sponsored {
+
+  font-size: 12px;
+  font-weight: bold;
+  float: right;
+
+}
+
+
+.single-article.Selects .category {
+  display: none;
+}
+
+.search-content.select .dir-card__facets::before {
+  content: "Recognized for: ";
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-width: 768px) { 
+  .single-article .col-md-8 { 
+      max-width: 65.666667%;
+  } 
+} 
+
+
+.videoWrapper {
+position: relative;
+padding-bottom: 56.25%; /* 16:9 */
+// padding-top: 25px;
+  height: 0;
+  margin-bottom: 10px;
+}
+.videoWrapper iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.filter #section {
+  display: none;
+}
+
+.facet-item label {
+  font-weight: bold;
+}
+
+// .filter #location {
+//     display: none;
+// }
+
+
+.trophy-icon {
+  max-width: 15px;
+  display: inline-block;
+  top: 3px;
+  position: relative;
+  opacity: 0.7;
+}
+
+.button2 {
+  font-size: 12px;
+  color: gray;
+  margin: 10px 0px;
+  display: inline-block;
+}
+
+.button2:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.go-back:hover {
+cursor: pointer;
+font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

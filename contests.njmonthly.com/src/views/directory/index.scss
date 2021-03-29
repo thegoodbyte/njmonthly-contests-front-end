@@ -1,0 +1,37 @@
+@import "~base";
+
+.user-view {
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 2em 3em
+}
+
+.user-view h1 {
+  margin: 0;
+  font-size: 1.5em
+}
+
+.user-view .meta {
+  list-style-type: none;
+  padding: 0
+}
+
+.user-view .label {
+  display: inline-block;
+  min-width: 4em
+}
+
+.user-view .about {
+  margin: 1em 0
+}
+
+.user-view .links a {
+  text-decoration: underline
+}
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+
+  background-color: #159b5d;
+  border-color: #159b5d;
+
+}

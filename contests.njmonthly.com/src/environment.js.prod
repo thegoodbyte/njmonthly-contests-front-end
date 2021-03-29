@@ -1,0 +1,9 @@
+module.exports = {
+    ENV_URL: 'https://contestsapi.njmonthly.com/api',
+    STRIPE_PUBLISHABLE: 'pk_live_IXOwGy5AauCdvuIhT7W2q0zk',
+    STRIPE_PUBLISHABLE_TEST: 'pk_test_XSKCkHJLBRJriWm3EzgVAtjr',
+    STRIPE_PUBLISHABLE_LIVE: 'pk_live_IXOwGy5AauCdvuIhT7W2q0zk',
+    S3_URL: 'https://s3.us-east-2.amazonaws.com/contest-content',
+    MAIN_URL: 'https://contests.njmonthly.com',
+    API_URL: 'https://contestsapi.njmonthly.com',
+}

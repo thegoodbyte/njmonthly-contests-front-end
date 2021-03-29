@@ -1,0 +1,130 @@
+{
+  "prizeData": [
+  {
+  
+    "name":"northern nj",
+    "partner": "Calandra’s Mediterranean Grill",
+    "locations":[
+      "Calandra’s Mediterranean Grill, Fairfield",
+      "Ringwood Manor, Ringwood State Park ",
+      "Great Falls, Paterson",
+      "White Manna, Hackensack",
+      "Colgate Clock, Jersey City",
+      "Seated Lincoln Statue, Essex County Courthouse"
+      
+    ],
+    "prizes": [
+      {
+        "secondPrize":"12-month subscription to <italic>New Jersey Monthly</italic>",
+        "grandPrize":"$125 gift certificate to Calandra’s Mediterranean Grill"
+      }
+    ]
+  },
+
+  {
+  
+    "name":"historic sites",
+    "partner": "Morris County Tourism Bureau ",
+    "locations":[
+      " The Green, Morristown",
+      " Ralston Cider Mill, Mendham",
+      " The Old Barracks, Trenton",
+      " Grover Cleveland Birthplace, Caldwell",
+      " Hunterdon County Courthouse, Flemington",
+      " Liberty Hall Museum, Kean University, Union"
+      
+    ],
+    "prizes": [
+      {
+        "secondPrize":"12-month subscription to <italic>New Jersey Monthly</italic>",
+        "grandPrize":"A basket of Morris County-themed items from Morris County Tourism Bureau"
+      }
+    ]
+  },
+
+  {
+  
+    "name":"central nj",
+    "partner": "Williams Harley-Davidson",
+    "locations":[
+      "Williams Harley-Davidson, Lebanon",
+      "Edison Memorial Tower, Edison",
+      "Princeton Battle Monument, Princeton",
+      "Thomas Paine Monument, Bordentown",
+      "Unionville Vineyards at the red barn, Ringoes",
+      "Red Mill Museum Village, Clinton"
+      
+    ],
+    "prizes": [
+      {
+        "secondPrize":"12-month subscription to <italic>New Jersey Monthly</italic>",
+        "grandPrize":"$100 gift certificate to Williams Harley-Davidson in Lebanon"
+      }
+    ]
+  },
+
+  {
+  
+    "name":"down the shore",
+    "partner": "",
+    "locations":[
+       "The (original) Windmill, Long Branch",
+       "The Stone Pony, Asbury Park",
+       "Midway Steak House, Seaside Heights Boardwalk",
+       "Old Barney, Barnegat Light, LBI",
+       "Lucy the Elephant, Margate City",
+       "The Wildwoods Sign, Wildwood"
+      
+    ],
+    "prizes": [
+      {
+        "secondPrize":"12-month subscription to <italic>New Jersey Monthly</italic> ",
+        "grandPrize":"$100 American Express gift card"
+      }
+    ]
+  },
+
+  {
+  
+    "name":"southern nj",
+    "partner": "",
+    "locations":[
+       "Battleship New Jersey, Camden",
+       "Haddy the Dinosaur, Haddonfield", 
+       "Paulsdale, Mount Laurel",
+       "Batsto Village, Hammonton",
+       "Carranza Memorial, Tabernacle",
+       "Fort Mott State Park, Pennsville"
+      
+    ],
+    "prizes": [
+      {
+        "secondPrize":"12-month subscription to <italic>New Jersey Monthly</italic>",
+        "grandPrize":"$100 American Express gift card"
+      }
+    ]
+  },
+
+  {
+  
+    "name":"take a hike",
+    "partner": "",
+    "locations":[
+       "High Point Monument, High Point State Park, Sussex", 
+       "Women’s Federation Monument, Palisades Interstate Park, Alpine",
+       "Tripod Rock/Pyramid Mountain, Montville ", 
+       "Feltville, Watchung Reservation, Berkeley Heights",
+       "Jockey Hollow, Morristown National Historical Park, Morristown",
+       "Historic Village at Allaire, Allaire State Park, Farmingdale"
+      
+    ],
+    "prizes": [
+      {
+        "secondPrize":"12-month subscription to <italic>New Jersey Monthly</italic>",
+        "grandPrize":"$100 American Express gift card"
+      }
+    ]
+  }
+]
+
+}
